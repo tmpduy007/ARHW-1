@@ -30,8 +30,8 @@ jobs:
             
         - name: 'Renew'
           env:
-            USER_ID: ${{ secrets.USER_Hax_EU-1 }}
-            PASS_WD: ${{ secrets.PASS_Hax_EU-1 }}
+            USER_ID: ${{ secrets.USER_H_EU1 }}
+            PASS_WD: ${{ secrets.PASS_H_EU1 }}
             BARK_KEY: ${{ secrets.BARK_KEY }}
             TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
             TG_USER_ID: ${{ secrets.TG_USER_ID }}
