@@ -30,11 +30,11 @@ jobs:
             
         - name: 'Renew'
           env:
-            USER_ID: 5896218858
-            PASS_WD: duy30tran
+            USER_ID: ${{ secrets.USER_ID }}
+            PASS_WD: ${{ secrets.PASS_WD }}
             BARK_KEY: ${{ secrets.BARK_KEY }}
-            TG_BOT_TOKEN: 5670971410:AAHLd0G3Tg8ma8fqpgR_kWDE_79xrelSR5o
-            TG_USER_ID: 5670971410
+            TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+            TG_USER_ID: ${{ secrets.TG_BOT_ID }}
 
           run: |
             python3 VPS/Woiden_EU-7.py
